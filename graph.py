@@ -1,4 +1,6 @@
 from urllib import parse
+import matplotlib as mpl
+mpl.use('Agg')
 from template import html
 import matplotlib.pyplot as plt
 
